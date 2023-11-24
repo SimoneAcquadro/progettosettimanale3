@@ -1,0 +1,107 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    top: 0;
+    border-bottom: 1px;
+    border-style: solid;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+}
+header li, svg {
+    list-style: none;
+    display: inline-block;
+    padding: 1.2em;
+}
+nav {
+    background-color: #FFC017;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.nav-links, a {
+    font-weight: 300;
+    text-decoration: none;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    display: block;
+}
+#nav-button {
+    background-color:#0a0a23;
+    color: #fff;
+    border-radius: 70px;
+}
+.principale {
+    border: 1px;
+    border-style: solid;
+    background-color: #FFC017;
+    padding: 6em 2em 0em 2em;
+    width: 100%;
+}
+.in-principale{
+    font-size: 1em;
+}
+#btn-principale {
+    margin-top: 2em;
+    background-color:#0a0a23;
+    color: #fff;
+    border-radius: 70px;
+}
+h1 {
+    font-family: 'Spectral', serif;
+    font-size: 4em;
+    padding-bottom: 0.2em;
+}
+.articoli {
+    border-bottom: 1px #0a0a23;
+    border-style: solid;
+    display: flex;
+    flex: wrap;
+}
+.articolo {
+    display: flex;
+    flex-direction: column;
+}
+#trend {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+.numeri-trasp{
+    opacity: 0.1;
+    font-size: 2rem;
+}
+.commento{
+    display: flex;
+    flex: wrap;
+}
+.raccolta{
+    border: 1px;
+    border-style: solid;
+    border-color: lightgray;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.scopri{
+    padding: 3em 1.5em;
+    display: flex;
+    flex: ;
+}
+.button-13{
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    padding: 13px 23px;
+    border: 1px solid #222222;
+    background: #fff;
+    color: #222222;
+}
+hr{
+    color: gray;
+}
